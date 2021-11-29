@@ -7,7 +7,7 @@
 ## Usage
 
 ```js
-  var fedexAPI = require('fedex-client');
+  var fedexAPI = require('@kronsi/tnt');
 
   var fedex = new fedexAPI({
     environment: 'sandbox', // or live
