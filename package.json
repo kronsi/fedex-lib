@@ -7,7 +7,7 @@
     "soap": "^0.24.0",
     "xml2js": "^0.4.12"
   },
-  "description": "FedEx API bindings for Node.JS",
+  "description": "A library for using the FedEx Express API",
   "homepage": "https://github.com/kronsi/fedex-lib.git#readme",
   "license": "MIT",
   "main": "./lib/index.js",
@@ -17,5 +17,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "private": false
 }

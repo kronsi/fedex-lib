@@ -2,7 +2,7 @@
 
 ## Install
 
-`npm install fedex-client`
+`npm i @kronsi/fedex`
 
 ## Usage
 
