@@ -1,21 +1,19 @@
 {
+  "name": "@kronsi/fedex",
   "version": "1.0.0",
-  "author": {
-    "name": "The Bouqs, Co"
-  },
+  "author": "Sven Kronshage <sven@kronsi.com>, Gareth Hughes <g_github@flamescape.com>",
   "dependencies": {
     "extend": "^3.0.2",
     "soap": "^0.24.0",
     "xml2js": "^0.4.12"
   },
   "description": "FedEx API bindings for Node.JS",
-  "homepage": "https://github.com/fportela-ns/fedex-client.git#readme",
+  "homepage": "https://github.com/kronsi/fedex-lib.git#readme",
   "license": "MIT",
   "main": "./lib/index.js",
-  "name": "fedex-client",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fportela-ns/fedex-client.git"
+    "url": "git+https://github.com/kronsi/fedex-lib.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

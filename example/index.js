@@ -3,13 +3,13 @@ var util = require('util');
 var fs = require('fs');
 
 var fedex = new fedexAPI({
-  environment: 'sandbox', // or live
+  environment: 'sandbox', // sandbox or live
   debug: true,
   key: 'KEY',
   password: 'DEVPASSWORD',
   account_number: 'ACCOUNT#',
   meter_number: 'METER#',
-  imperial: true // set to false for metric
+  imperial: false // set to false for metric
 });
 
 /**
@@ -68,14 +68,14 @@ fedex.rates({
       SequenceNumber: 1,
       GroupPackageCount: 1,
       Weight: {
-        Units: 'LB',
+        Units: 'KG',
         Value: '50.0'
       },
       Dimensions: {
         Length: 108,
         Width: 5,
         Height: 5,
-        Units: 'IN'
+        Units: 'CM'
       }
     }
   }
