@@ -1,7 +1,7 @@
 {
   "name": "@kronsi/fedex",
   "version": "1.0.0",
-  "author": "Sven Kronshage <sven@kronsi.com>, Gareth Hughes <g_github@flamescape.com>",
+  "author": "Sven Kronshage <sven@kronsi.com>",
   "dependencies": {
     "extend": "^3.0.2",
     "soap": "^0.24.0",
