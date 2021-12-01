@@ -1,6 +1,6 @@
 {
   "name": "@kronsi/fedex",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Sven Kronshage <sven@kronsi.com>",
   "dependencies": {
     "extend": "^3.0.2",
