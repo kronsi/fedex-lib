@@ -186,6 +186,51 @@ fedex.ship({
 });
 
 /**
+ * Pickup
+ */
+ fedex.pickup({  
+  AssociatedAccountNumber: {
+    Type: "FEDEX_EXPRESS",
+    AccountNumber: fedex.options.account_number
+  },
+  OriginDetail: {
+    UseAccountAddress: false,
+    PickupLocation: {
+      Contact: {
+        PersonName: 'Sender Name',
+        CompanyName: 'Company Name',
+        PhoneNumber: '5555555555'
+      },
+      Address: {
+        StreetLines: [
+          'Address Line 1'
+        ],
+        City: 'Collierville',
+        StateOrProvinceCode: 'TN',
+        PostalCode: '38017',
+        CountryCode: 'US'
+      }
+    },
+    PackageLocation: "NONE",
+    ReadyTimestamp: "2021-12-02T09:00:57.282Z",
+    CompanyCloseTime: "16:00:00",        
+  },
+  PackageCount: '1',
+  TotalWeight: {
+    Units: "KG",
+    Value: "1"
+  },
+  CarrierCode: "FDXE"
+}, function(err, res) {
+  if(err) {
+    return console.log(util.inspect(err, {depth: null}));
+  }
+
+  console.log(util.inspect(res, {depth: null}));
+});
+
+
+/**
  * Freight Rates
  */
 fedex.freight_rates({

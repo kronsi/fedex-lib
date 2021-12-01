@@ -26,8 +26,6 @@ See `example/index.js` for working samples.
 
 Originally forked from [mojo5000,fportela-ns,MrBenJ,RyanYocum](https://github.com/thebouqs/fedex-node-client).
 
-replaced libxslt by saxon-js in case of maintanance 
-
 ## License
 
 (The MIT License)
