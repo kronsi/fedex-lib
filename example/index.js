@@ -5,6 +5,7 @@ var fs = require('fs');
 var fedex = new fedexAPI({
   environment: 'sandbox', // sandbox or live
   debug: true,
+  debugOutput: "xml",
   key: 'KEY',
   password: 'DEVPASSWORD',
   account_number: 'ACCOUNT#',
