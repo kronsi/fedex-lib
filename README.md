@@ -12,6 +12,7 @@
   var fedex = new fedexAPI({
     environment: 'sandbox', // or live
     debug: true,
+    debugOutput: "xml",
     key: 'KEY',
     password: 'DEVPASSWORD',
     account_number: 'ACCOUNT#',
