@@ -1,4 +1,6 @@
-#fedex-client
+# fedex-client
+
+library to track, rate or ship something via FedEx Express
 
 ## Install
 
