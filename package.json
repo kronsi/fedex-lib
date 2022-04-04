@@ -1,10 +1,10 @@
 {
   "name": "@kronsi/fedex",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "author": "Sven Kronshage <sven@kronsi.com>",
   "dependencies": {
     "extend": "^3.0.2",
-    "soap": "^0.24.0",
+    "soap": "^0.43.0",
     "xml2js": "^0.4.12"
   },
   "description": "A library for using the FedEx Express API",
